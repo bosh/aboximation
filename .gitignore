@@ -2,5 +2,5 @@
 .vagrant/
 tmp/
 *.box
-.log
-
+*.log
+*.sqlite3

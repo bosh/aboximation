@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
       "rvm" => {
         "default_ruby" => "ruby-2.0.0-p195",
         "group_users" => ["vagrant"],
-        "vagrant" => { "system_chef_solo" => '/opt/vagrant_ruby/bin/chef-solo' }
+        #"vagrant" => { "system_chef_solo" => '/opt/vagrant_ruby/bin/chef-solo' }
       }
     }
   end
